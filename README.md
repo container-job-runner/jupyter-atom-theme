@@ -1,4 +1,4 @@
-# jupyter_atomtheme
+# jupyter-atom-theme
 
 A Jupyter lab theme based on atom
 
@@ -9,7 +9,7 @@ A Jupyter lab theme based on atom
 ## Installation
 
 ```bash
-jupyter labextension install jupyter_atomtheme
+jupyter labextension install jupyter-atom-theme
 ```
 
 ## Development

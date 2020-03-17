@@ -6,16 +6,16 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for jupyter_atomtheme
+ * A plugin for jupyter-atom-theme
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyter_atomtheme:plugin',
+  id: 'jupyter-atom-theme:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'jupyter_atomtheme/index.css';
+    const style = 'jupyter-atom-theme/index.css';
 
     manager.register({
-      name: 'jupyter_atomtheme',
+      name: 'jupyter-atom-theme',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
