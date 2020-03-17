@@ -1,2 +1,29 @@
-# jupyter-atom-theme
-A Jupyter Theme Based on Atom
+# jupyter_atomtheme
+
+A Jupyter lab theme based on atom
+
+## Prerequisites
+
+* JupyterLab
+
+## Installation
+
+```bash
+jupyter labextension install jupyter_atomtheme
+```
+
+## Development
+
+For a development install (requires npm version 4 or later), do the following in the repository directory:
+
+```bash
+npm install
+jupyter labextension link .
+```
+
+To rebuild the package and the JupyterLab app:
+
+```bash
+npm run build
+jupyter lab build
+```
