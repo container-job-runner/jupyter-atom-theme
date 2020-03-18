@@ -25,8 +25,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 */
 
 :root {
-  
-    
+
+
   /* Atom one dark colours */
   --atom-files: #21252B;
   --atom-editor: #282C34;
@@ -35,20 +35,20 @@ all of MD as it is not optimized for dense, information rich UIs.
   --atom-one-dark-cyan: #56B6C2;
   --atom-one-dark-blue: #65b0ed;
   --atom-one-dark-bg-1: #121417;
-  --atom-one-dark-red-1: #d36d77;
+  --atom-one-dark-red-1: #de6d77;
   --atom-one-dark-mono-1: #ABB2BF;
   --atom-one-dark-silver: #AAAAAA;
   --atom-one-dark-bg-hl: #2F343D;
   --atom-one-dark-fg: #ABB2BF;
-  --atom-one-dark-green: #98C379;
-  --atom-one-dark-orange-1: #D19A66;
+  --atom-one-dark-green: #99c27c;
+  --atom-one-dark-orange-1: #d09a6a;
   --atom-one-dark-mono-3: #5C6370;
   --atom-one-dark-bg: #282C34;
   --atom-one-dark-gray: #3E4451;
-  --atom-one-dark-purple: #c07bdb;
+  --atom-one-dark-purple: #c57bdb;
   --atom-one-dark-black: #0F1011;
   --atom-one-light-black: #222222;
-    
+
   /* Borders
    *
    * The following variables, specify the visual styling of borders in JupyterLab.
@@ -59,7 +59,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-border-color1: var(--atom-one-light-black);
   --jp-border-color2: var(--atom-one-dark-black);
   --jp-border-color3: var(--atom-one-light-black);
-  --jp-border-radius: 1px; 
+  --jp-border-radius: 1px;
 
   /* UI Fonts
    *
@@ -177,7 +177,7 @@ all of MD as it is not optimized for dense, information rich UIs.
    * The following are the inverse layout colors use in JupyterLab. In a light
    * theme these would go from dark to light.
    */
- 
+
   --jp-inverse-layout-color0: white;
   --jp-inverse-layout-color1: white;
   --jp-inverse-layout-color2: var(--md-grey-200);
@@ -237,7 +237,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 0.5;
-    
+
   --jp-cell-prompt-not-active-font-color: var(--atom-one-dark-mono-1);
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
@@ -316,12 +316,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-comment-color: #5c636f; /* EDIT */
   --jp-mirror-editor-string-color: var(--atom-one-dark-green);
   --jp-mirror-editor-string-2-color: #f50;
-  --jp-mirror-editor-meta-color: #AA22FF;
+  --jp-mirror-editor-meta-color: var(--atom-one-dark-mono-1);
   --jp-mirror-editor-qualifier-color: var(--atom-one-dark-orange-1);
   --jp-mirror-editor-builtin-color: var(--atom-one-dark-purple);
   --jp-mirror-editor-bracket-color: var(--atom-one-dark-mono-1);
-  --jp-mirror-editor-tag-color: var(--atom-one-dark-blue);
-  --jp-mirror-editor-attribute-color: var(--atom-one-dark-red-1);
+  --jp-mirror-editor-tag-color: var(--atom-one-dark-red-1);
+  --jp-mirror-editor-attribute-color: var(--atom-one-dark-orange-1);
   --jp-mirror-editor-header-color: var(--md-blue-500);
   --jp-mirror-editor-quote-color: var(--md-green-300);
   --jp-mirror-editor-link-color: var(--atom-one-dark-red-1);
