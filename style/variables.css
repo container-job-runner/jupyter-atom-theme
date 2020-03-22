@@ -46,7 +46,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --atom-one-dark-bg: #282C34;
   --atom-one-dark-gray: #3E4451;
   --atom-one-dark-purple: #c57bdb;
-  --atom-one-dark-black: #0F1011;
+  --atom-one-dark-black: #121415;
   --atom-one-light-black: #222222;
 
   /* Borders
@@ -377,4 +377,19 @@ div.CodeMirror span.CodeMirror-matchingbracket {
   background-color: #EEEEEE;
   border-radius: 2px;
   border: 1px solid #CCCCCC;
+}
+
+/* change color of bottom-border and add 1 px of padding to align with left tab */
+.jp-DirListing-header {
+  border-bottom-color: var(--jp-border-color2) ! important;
+  padding-bottom: 1px;
+}
+
+/* change color of file header */
+.jp-FileBrowser {
+  background: var(--jp-layout-color2)
+}
+
+.jp-SideBar .lm-TabBar-tab.lm-mod-current {
+  min-height: 0 !important
 }
