@@ -393,3 +393,12 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 .jp-SideBar .lm-TabBar-tab.lm-mod-current {
   min-height: 0 !important
 }
+
+/* Ensure active and disabled menu items are colored differently */
+.lm-mod-active {
+    background: var(--jp-layout-color1) !important;
+}
+
+.p-mod-disabled {
+  color: var(--atom-one-dark-mono-3) !important;
+}
