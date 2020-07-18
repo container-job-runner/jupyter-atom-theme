@@ -350,9 +350,13 @@ all of MD as it is not optimized for dense, information rich UIs.
     border-right: 0px;
 }
 
-/* remove bar under tabs */
+/* remove bar under tabs for jupyter-lab editor windows */
 .jp-Toolbar {
-  display: none;
+  height: auto !important; 
+  min-height: 0px !important;
+  border-bottom: 0px none;
+  padding: 0px;
+  background: var(--jp-layout-color0)
 }
 .jp-FileEditor {
   top: 0px !important;
