@@ -361,6 +361,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 .jp-FileEditor {
   top: 0px !important;
 }
+.jp-Notebook {
+    padding-top: 2em;
+}
 
 /* flip color ordering of tabs */
 .lm-TabBar-tab.lm-mod-current {
