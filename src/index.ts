@@ -6,22 +6,23 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for jupyter-atom-theme
+ * Initialization data for the atom extension.
  */
-const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyter-atom-theme:plugin',
+const extension: JupyterFrontEndPlugin<void> = {
+  id: 'atom',
   requires: [IThemeManager],
-  activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
-    const style = 'jupyter-atom-theme/index.css';
+  autoStart: true,
+  activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
+    console.log('JupyterLab extension atom is activated!');
+    const style = 'atom/index.css';
 
     manager.register({
-      name: 'jupyter-atom-theme',
+      name: 'atom',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
     });
-  },
-  autoStart: true
+  }
 };
 
-export default plugin;
+export default extension;
